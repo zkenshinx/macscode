@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 9100
+      username: user
+      password: password
+      database: problems
