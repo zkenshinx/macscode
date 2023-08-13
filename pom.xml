@@ -23,6 +23,7 @@
 
     <modules>
         <module>problem-service</module>
+        <module>submission-service</module>
     </modules>
 
 </project>
