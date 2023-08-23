@@ -39,3 +39,5 @@ build/
 .DS_Store
 
 /problemsdb/
+/code-execution/execution/results/
+/code-execution/execution/main
