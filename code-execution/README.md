@@ -3,6 +3,7 @@ Currently it's demo version that only compiles and runs c++ program that sums 2 
 
 # Build 
 ```bash
+docker rmi -f macscode/cpp-docker
 docker build -t macscode/cpp-docker .
 ```
 

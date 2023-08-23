@@ -6,5 +6,6 @@ services:
     volumes:
       - ./execution:/app/execution
     environment:
-      - TEST_COUNT=2
+      - TEST_COUNT=3
+      - TIME_LIMIT=1
     restart: "no"
