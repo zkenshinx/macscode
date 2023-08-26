@@ -1,0 +1,11 @@
+version: '3'
+services:
+  test:
+    image: macscode/cpp-docker
+    container_name: cpp_execution_environment
+    volumes:
+      - ./execution:/app/execution
+    environment:
+      - TEST_COUNT=3
+      - TIME_LIMIT=1
+    restart: "no"
