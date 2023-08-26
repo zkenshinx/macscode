@@ -25,13 +25,11 @@ int main(int argc, char* argv[]) {
 
     if (test_number == 3) {
         // Try to cause TLE
-        srand(time(0));
-        if (rand() % 5 <= 3) {
-            int x = 5;
-            while (true) {
-                x += 1;
-            }
+        int x = 5;
+        while (true) {
+            x += 1;
         }
+        cout << x << endl;
     }
 
     if (c == user_result) {
